@@ -1,0 +1,93 @@
+# ----------------------------
+# Python cache and artifacts
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ----------------------------
+# Virtual environment folders
+# ----------------------------
+env/
+venv/
+.form_agent_env/
+.venv/
+*.env
+
+# ----------------------------
+# OS-specific junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Build / packaging
+# ----------------------------
+dist/
+build/
+*.egg-info
+*.egg
+
+# ----------------------------
+# PyTest / logs / cache
+# ----------------------------
+.pytest_cache/
+logs/
+*.log
+
+# ----------------------------
+# Project-specific ignores
+# ----------------------------
+
+# Ignore all data pdfs except sample placeholders
+data/*.pdf
+data/*.png
+data/*.jpg
+data/*.jpeg
+
+# Keep sample/example placeholders if needed
+!data/sample_form.pdf
+
+# OCR temporary images
+*.tiff
+*.tif
+*.bmp
+
+# Local config files
+config.json
+.env.local
+.env.dev
+.env.production
+
+# ----------------------------
+# VSCode / IDE settings
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------------
+# Streamlit cache (if UI added)
+# ----------------------------
+.streamlit/
+
+# ----------------------------
+# Reporting and temp files
+# ----------------------------
+*.tmp
+*.temp
+*.bak
